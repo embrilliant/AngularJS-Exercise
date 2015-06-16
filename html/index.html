@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="lifeStoreApp">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Role Ordering</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/style.css">
+  
+</head>
+<body>
+
+  <div id="container" class="container">
+   <div id="head-bar" class="col-sm-12">Purchase a Role</div>
+      <div ng-controller="StoreController as store">
+            <div id="product-list" class="row">
+               <div id="product-list-item"  class="col-xs-12 col-md-6" ng-repeat="life in store.products">
+                  <product></product>
+                  <product-panels></product-panels>
+                  <message></message>
+               </div>
+            </div>
+      </div>
+   </div>
+
+<!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<!-- script section -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.15/angular.min.js"></script>
+   <script type="text/javascript" src="../js/script.js"></script>
+   <script type="text/javascript" src="../js/products.js"></script>
+</body>
+</html>

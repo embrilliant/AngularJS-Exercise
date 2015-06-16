@@ -1,0 +1,70 @@
+[
+	{
+		"type": "Programmer",
+		"price": 666666000000,
+		"description": "The most powerful type.",
+		"pecification": "Good at: logic",
+		"canPurchase": true,
+		"soldOut": false,
+		"select": 1,
+		"images": [
+					{
+						"full": "../images/product-images/programmer.png"
+					}
+				],
+		"messages": [
+					{
+						"message": "Awesome!",
+						"who": "Magician"
+					}
+				]
+	},
+	{
+		"type": "Marketer",
+		"price": 9999900.99,
+		"description": "The persuasive type.",
+		"pecification": "Good at: leading talks",
+		"canPurchase": true,
+		"soldOut": false,
+		"select": 2,
+		"images": [
+					{
+						"full": "../images/product-images/marketer.png"
+					}
+				],
+		"messages": [
+				]
+	},
+	{
+		"type": "Business Person",
+		"price": 77777000,
+		"description": "The one who is good at administrative tasks",
+		"pecification": "Good at: administer",
+		"canPurchase": true,
+		"soldOut": false,
+		"select": 3,
+		"images": [
+					{
+						"full": "../images/product-images/b-p.png"
+					}
+				],
+		"messages": [
+				]
+	},
+	{
+		"type": "Artist",
+		"price": 88888000,
+		"description": "The one who does whatever.",
+		"pecification": "Good at: integrating whatever it is",
+		"canPurchase": true,
+		"soldOut": false,
+		"select": 4,
+		"images": [
+					{
+						"full": "../images/product-images/artist.png"
+					}
+				],
+		"messages": [
+				]
+	}
+]

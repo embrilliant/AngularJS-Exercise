@@ -1,0 +1,29 @@
+<div id="message-board" class="panel" ng-show="panel.isSelected(3)">
+   <h4>Messages</h4>
+   <div ng-repeat="message in life.messages">
+      <b>Message:</b><br>
+      <p>{{message.message}}</p>
+      <p> &nbsp; - from: <em>{{message.who}}</em></p>
+   </div>
+   <div class=""> <!-- row -->
+      <form name="messageForm" role="form" ng-controller="MessageController as msgCtrl" ng-submit="messageForm.$valid && msgCtrl.addMessage(life)" novalidate>
+         <div>
+            <b>Message:</b>
+            <p>{{msgCtrl.message.message}}</p>
+            <p> &nbsp; - from: <em>{{msgCtrl.message.who}}</em></p>
+         </div>
+         <div class="form-group">
+            <label for="">Your name:</label>
+            <input type="text" name="" id="" ng-model="msgCtrl.message.who" required>
+         </div>
+         <div class="form-group">
+            <label for="">Message:</label>
+            <textarea placeholder="Your message here." rows="4" cols="50" name="" id="" ng-model="msgCtrl.message.message" required></textarea>
+         </div>
+         <div>
+            <button type="submit" id="submit" value="Submit">Submit</button>
+            <button type="reset" value="Clear" id="clear">Clear</button>
+         </div>
+      </form>
+   </div>
+</div>

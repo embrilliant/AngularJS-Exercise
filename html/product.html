@@ -1,0 +1,6 @@
+<section>
+	<h4> {{life.type}} </h4>
+	<img ng-src="{{life.images[0].full}}">
+	<strong id="price" class=""> {{life.price | currency: "XRP "}} </strong>
+	<button ng-show="life.canPurchase">Add to cart</button>
+</section>

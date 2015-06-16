@@ -1,0 +1,15 @@
+                  <section id="product-panels">
+                     <ul id="panel" class="nav nav-pills">
+                        <li ng-class="{ active: panel.isSelected(1) }"><a href ng-click="panel.selectTab(1)">Description</a></li>
+                        <li ng-class="{ active: panel.isSelected(2) }"><a href ng-click="panel.selectTab(2)">Specifications</a></li>
+                        <li ng-class="{ active: panel.isSelected(3) }"><a href ng-click="panel.selectTab(3)">Message</a></li>
+                     </ul>
+                     <div class="panel" ng-show="panel.isSelected(1)">
+                        <h4>Description</h4>
+                        <div>{{life.description}}</div>
+                     </div>
+                     <div class="panel" ng-show="panel.isSelected(2)">
+                        <h4>Specifications</h4>
+                        <div>{{life.pecification}}</div>
+                     </div>
+                  </section>
