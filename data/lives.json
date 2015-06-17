@@ -9,7 +9,7 @@
 		"select": 1,
 		"images": [
 					{
-						"full": "../images/product-images/programmer.png"
+						"full": "../images/product-images/marketer.png"
 					}
 				],
 		"messages": [
@@ -29,7 +29,7 @@
 		"select": 2,
 		"images": [
 					{
-						"full": "../images/product-images/marketer.png"
+						"full": "../images/product-images/programmer.png"
 					}
 				],
 		"messages": [
