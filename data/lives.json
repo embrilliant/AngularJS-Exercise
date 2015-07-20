@@ -9,11 +9,8 @@
 		"select": 1,
 		"images": [
 					{
-<<<<<<< HEAD
-						"full": "../images/product-images/marketer.png"
-=======
+			
 						"full": "../images/product-images/programmer.png"
->>>>>>> master
 					}
 				],
 		"messages": [
@@ -33,11 +30,8 @@
 		"select": 2,
 		"images": [
 					{
-<<<<<<< HEAD
-						"full": "../images/product-images/programmer.png"
-=======
+
 						"full": "../images/product-images/marketer.png"
->>>>>>> master
 					}
 				],
 		"messages": [
@@ -47,11 +41,7 @@
 		"type": "Business Person",
 		"price": 77777000,
 		"description": "The one who is good at administrative tasks",
-<<<<<<< HEAD
-		"pecification": "Good at: administer",
-=======
 		"pecification": "Good at: administration",
->>>>>>> master
 		"canPurchase": true,
 		"soldOut": false,
 		"select": 3,
