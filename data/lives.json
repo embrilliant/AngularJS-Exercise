@@ -39,7 +39,7 @@
 		"type": "Business Person",
 		"price": 77777000,
 		"description": "The one who is good at administrative tasks",
-		"pecification": "Good at: administering",
+		"pecification": "Good at: administration",
 		"canPurchase": true,
 		"soldOut": false,
 		"select": 3,
